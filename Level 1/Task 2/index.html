@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bellefair&family=Catamaran:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@300;400;500;900&family=Open+Sans:wght@300&family=Outfit&family=Poppins:ital,wght@1,300;1,500;1,600;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>Portfolio</h1>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#contacts"><i class="fas fa-envelope"></i> Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home">
+        <div class="align">
+            <div class="Size">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <br> Sampath Kumar</h1>
+                <p>"Passionate Computer Science undergraduate student with a strong desire to innovate and create,
+                    showcasing my journey and projects here."</p>
+            </div>
+            <div class="myimage">
+                <img src="Profile pic-fotor-20230918145415.png" alt="error">
+            </div>
+
+        </div>
+    </div>
+    <main>
+
+
+        <div id="about" class="align">
+            <div class="left">
+                <img src="profile 2 (1).png" alt="person image">
+            </div>
+            <div class="right">
+                <div class="Size2">
+                    <h1>About me</h1>
+                    <p>I'm a Computer Science undergraduate with a passion for technology and innovation. I love coding,
+                        problem-solving, and creating meaningful projects. Explore my journey and projects as I continue
+                        to learn and grow in the world of Computer Science</p>
+                </div>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Figma - UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web development</span><br>Creating and maintaining websites for online presence.</li>
+                        <li><span>Presentation</span><br>Designing presentation templates and delivering engaging
+                            presentations.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>Tech Enthusiasts </span><br>Avidly consuming tech content online.</li>
+                        <li><span>Gardening</span><br>Nurturing nature, finding peace, and cultivating beauty outdoors.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Sahyadri College Of Engineering</span><br>BTech CSE</li>
+                        <li><span>Vani PU College</span><br>Pre-University</li>
+                        <li><span>Kumbhashree Nittade School</span><br>Schooling</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <h1 class="projecth">Projects</h1>
+
+        <div id="projects">
+
+            <div class="space">
+                <div class="cal">
+                    <p class="calh">Web Calculator</p>
+                    <img src="cal.png" alt="error">
+                    <p class="calp">This is a simple web-based calculator application built using HTML, CSS, and
+                        JavaScript. It allows users to perform basic arithmetic operations, including addition,
+                        subtraction, multiplication, division, and more.</p>
+                </div>
+            </div>
+            <div class="space2">
+                <div class="portal">
+                    <p class="portalh">Internet Portal</p>
+                    <img src="portal1.png" alt="error">
+                    <p class="portalp">Welcome to the Sahyadri Internet Portal Clone project! This is my recreation of Sahyadri College's internet portal using HTML, CSS, and JavaScript.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section id="contacts">
+        <br>
+        <br>
+        <br>
+        <h2 class="contacth">Contact me</h2>
+        <div class="align">
+            <div>
+                <h1> <i class="fas fa-user"></i> Name</h1>
+                <p>Sampath kumar</p>
+                <h1><i class="fas fa-map-marker-alt"></i> Address</h1>
+                <p>Venur, Belthangady</p>
+                <h1><i class="fas fa-envelope"></i> Email</h1>
+                <p>sampathkumarvenur@gmail.com</p>
+            </div>
+            <div class="one">
+                <div><button id="downloadButton">Download CV</button>
+                </div>
+                <div><i class="fas fa-phone"></i> Phone:<a href="#">99001963224</a></div>
+                <div><i class="fab fa-linkedin"></i> LinkedIn:<a href="www.linkedin.com/in/sampath-kumar-44262326a">sampathkumar</a></div>
+                <div><i class="fab fa-github"></i> github:<a href="https://github.com/sampathvenur">sampathvenur/</a></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p class="rightsf">Created By @Sampath Kumar | <span
+                class="far fa-copyright"></span> 2023 All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
